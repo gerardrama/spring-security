@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: mysql
+
+application:
+  security:
+    jwt:
+      secret-key:
+      expiration: 30000
+      refresh-token:
+        expiration: 604800000
