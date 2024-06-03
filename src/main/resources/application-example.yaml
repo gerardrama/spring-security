@@ -20,3 +20,6 @@ application:
       expiration: 30000
       refresh-token:
         expiration: 604800000
+      cookie:
+        name:
+        expiration: 604800000
